@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 45%;
+  min-height: 600px;
+  background: white;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(48, 16, 255, 1) 0%,
+    rgba(100, 115, 255, 1) 100%
+  );
+}
+
+
+.todo-form {
+  margin-bottom: 32px;
+}
+
+.todo-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 122, 255, 1) 0%,
+    rgba(20, 159, 255, 1) 100%
+  );
+  color: white;
+  text-transform: capitalize;
+}
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid rgba(17, 122, 255, 1);
+  outline: none;
+  width: 320px;
+}
+
+.complete {
+  text-decoration: line-through;
+}
